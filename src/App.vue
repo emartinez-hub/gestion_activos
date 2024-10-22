@@ -3,7 +3,7 @@
     <!-- Sidebar -->
     <div :class="['sidebar', { collapsed: isSidebarCollapsed }]">
       <button class="btn btn-primary mt-3" @click="toggleSidebar">
-        <i class="fas" :class="isSidebarCollapsed ? 'fa-bars' : 'fa-times'"></i>
+        <i class="bi bi-list"></i>
       </button>
       <ul class="nav flex-column mt-3">
         <li class="nav-item">
